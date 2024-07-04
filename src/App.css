@@ -1,0 +1,203 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.App {
+  overflow: hidden;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px 0px 150px;
+}
+
+.logo-section img {
+  width: 111.17px;
+  height: 27.68px;
+}
+
+.logo-section button {
+  width: 167px;
+  height: 56px;
+  background-color: #13183F;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.logo-section button:hover {
+  background-color: #666CA3;
+  color: #FFFFFF;
+}
+
+.call-to-action {
+  width: 457px;
+  height: 359px;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+.call-to-action h1 {
+  font-size: 56px;
+  font-weight: 800;
+  color: #13183F;
+}
+
+.call-to-action p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #83869A;
+}
+
+.cta-btn {
+  width: 167px;
+  height: 63px;
+  border: none;
+  border-radius: 30px;
+  background: rgb(240,42,166);
+  background: linear-gradient(180deg, rgba(240,42,166,1) 0%, rgba(255,111,72,1) 100%);
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  z-index: inherit;
+}
+
+.heroImgCont {
+  position: relative;
+}
+
+.hero-image {
+  width: 991.63px;
+  height: 936.92px;
+  position: relative;
+  top: -750px;
+  left: 650px;
+  z-index: -1;
+}
+
+.courses-grid {
+  position: relative;
+  top: -700px;
+  margin-left: 150px;
+}
+
+.firstRow {
+  display: flex;
+}
+
+.popular-courses {
+  width: 350px;
+  height: 322px;
+  background: rgb(240,42,166);
+  background: linear-gradient(180deg, rgba(240,42,166,1) 0%, rgba(255,111,72,1) 100%);
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 15px;
+  margin-right: 30px;
+}
+
+.popular-courses h1 {
+  margin: 50px 50px 0px 40px;
+}
+
+.animation, 
+.design, 
+.photography, 
+.crypto, 
+.business {
+  width: 350px;
+  height: 346px;
+  margin-right: 30px;
+}
+
+.animation img, 
+.design img, 
+.photography img, 
+.crypto img, 
+.business img {
+  width: 56px;
+  height: 56px;
+}
+
+.animation h3, 
+.design h3, 
+.photography h3, 
+.crypto h3, 
+.business h3 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #13183F;
+  margin-bottom: 24px;
+}
+
+.animation p, 
+.design p, 
+.photography p, 
+.crypto p, 
+.business p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #83869A;
+  margin-right: 50px;
+}
+
+.design .course-btn {
+  margin-top: 50px;
+}
+
+.photography .course-btn {
+  margin-top: 50px;
+}
+
+
+.course-btn {
+  margin-top: 24px;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  color: #F74780;
+}
+
+.secondRow {
+  display: flex;
+  margin-top: 50px;
+}
+
+.footer {
+  position: relative;
+  top: -600px;
+  height: 120px;
+  background-color: #13183F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer img {
+  width: 111.17px;
+  height: 27.68px;
+  margin-left: 150px;
+}
+
+.footer button {
+  width: 167px;
+  height: 56px;
+  background: rgb(72,81,255);
+  background: linear-gradient(180deg, rgba(72,81,255,1) 0%, rgba(240,42,166,1) 100%);
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-right: 150px;
+}
+
+.footer {
+  margin-bottom: -600px;
+}
+
